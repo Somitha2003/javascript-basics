@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #444;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.task-box {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(240, 240, 240, 0.9); /* Default background color */
+}
+
+.task-box:nth-child(odd) {
+    background-color: rgba(255, 182, 229, 0.9); /* Light Pink for odd boxes */
+}
+
+.task-box:nth-child(even) {
+    background-color: rgba(255, 183, 229, 0.9); /* Light Blue for even boxes */
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #00f7ff; /* OrangeRed color */
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #00ff77; /* OrangeRed color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ff47a0; /* Tomato color */
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #d6ff50; /* Coral color */
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgba(205, 236, 255, 0.9); /* LemonChiffon background color */
+    transition: background-color 0.3s ease-in-out;
+}
+
+p:hover {
+    background-color: rgba(190, 250, 240, 0.9); /* LightGoldenrodYellow background color */
+}
